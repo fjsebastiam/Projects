@@ -3,6 +3,11 @@
  */
 public class hello_world {
     public static void main(String[] args) {
-        System.out.print("Hola mon");
+        public static void main(String[] args) {
+            printHola();
+        }
+        public static void printHola(){
+            System.out.println("Hola món!");
+        }
     }
 }
